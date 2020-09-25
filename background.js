@@ -72,9 +72,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
         setTimeout(function() {alert(`The actual ${price} is higher than the established maximum price ${result.userSettings.maxBtcId}:`)}, 5000);;
       }
 
-
     });
-
 
   fetchBtcPrice();
 });
