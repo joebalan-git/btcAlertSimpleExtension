@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!-- CSS only -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+    
+      <div id="buttonDiv">
+
+      </div>
+      <div>
+
+        <div class="card">
+        <div class="card-header">
+          BTC Alert extension options
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Set the minimum and maximun Price for BTC Alert price</h5>
+              <form>
+                <div class="form-group">
+                      <label for="minBtcId">Minimun price alert:</label>
+                      <input type="text" class="form-control" id="minBtcId" name="minBtcId" value="10000">
+                      <small id="minBtcIdHelp" class="form-text text-muted">Minimum price from which an alert will be generated.</small>
+                </div>
+                <div>
+                      <label for="minBtcId">Minimun price alert:</label>
+                                  <input type="text" class="form-control" id="maxBtcId" name="maxBtcId" value="20000">
+                      <small id="minBtcIdHelp" class="form-text text-muted">Maximun price from which an alert will be generated</small>
+                </div>
+
+                </br> 
+                <button type="button" class="btn btn-primary" id="savePreferencesId" name="savePreferences">Save preferences</button>
+              </form>
+              </div>
+        </div>
+
+      </div>    
+
+    </body>
+    <script src="options.js"></script>
+  </html>
