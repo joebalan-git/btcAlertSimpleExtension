@@ -7,34 +7,42 @@
     </head>
     <body>
     
-      <div id="buttonDiv">
+      <div>
+        <div class="card">
+        <div class="card-header">
+          BTC Actual price: <span id="actualPriceId"></span>
+        </div>
+      </div>  
 
-      </div>
+      </br>
+
       <div>
 
         <div class="card">
-        <div class="card-header">
-          BTC Alert extension options
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Minimum and maximun price for BTC Alert</h5>
-              <form>
-                <div class="form-group">
-                      <label for="minBtcId">Minimun price:</label>
-                      <input type="text" class="form-control" id="minBtcId" name="minBtcId" value="10000">
-                      <small id="minBtcIdHelp" class="form-text text-muted">Minimum price (in U.S. dollars) from which an alert will be generated.</small>
-                </div>
-                <div>
-                      <label for="minBtcId">Maximun price:</label>
-                                  <input type="text" class="form-control" id="maxBtcId" name="maxBtcId" value="20000">
-                      <small id="minBtcIdHelp" class="form-text text-muted">Maximun price (in U.S. dollars) from which an alert will be generated</small>
-                </div>
+        
+            <div class="card-header">
+              OPTIONS
+            </div>
 
-                </br> 
-                <button type="button" class="btn btn-primary" id="savePreferencesId" name="savePreferences">Save preferences</button>
-              </form>
-              </div>
-        </div>
+            <div class="card-body">
+              <h5 class="card-title">Minimum and maximun prices for BTC Alert</h5>
+                  <form>
+                    <div class="form-group">
+                          <label for="minBtcId">Minimun price:</label>
+                          <input type="text" class="form-control" id="minBtcId" name="minBtcId" value="10000">
+                          <small id="minBtcIdHelp" class="form-text text-muted">Minimum price (in U.S. dollars) from which an alert will be generated.</small>
+                    </div>
+                    <div>
+                          <label for="minBtcId">Maximun price:</label>
+                                      <input type="text" class="form-control" id="maxBtcId" name="maxBtcId" value="20000">
+                          <small id="minBtcIdHelp" class="form-text text-muted">Maximun price (in U.S. dollars) from which an alert will be generated</small>
+                    </div>
+
+                    </br> 
+                    <button type="button" class="btn btn-primary" id="savePreferencesId" name="savePreferences">Save preferences</button>
+                  </form>
+                  </div>
+            </div>
 
       </div>    
 
